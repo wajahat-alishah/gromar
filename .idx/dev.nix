@@ -5,6 +5,9 @@
   channel = "stable-24.05"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
+    pkgs.firebase-tools
+    pkgs.adoptopenjdk-jre-openj9-bin-11
+    pkgs.nodejs # General Node.js package
     # pkgs.go
     # pkgs.python311
     # pkgs.python311Packages.pip
